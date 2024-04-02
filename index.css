@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+
+}
+
+
+input{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 600px;
+    box-sizing: border-box;
+    border: 1px solid greenyellow;
+    margin-bottom: 10px;/* to add gap between two buttons */
+
+}
+
+button{
+    width: 200px;
+    background-color: green;
+    padding: 10px 20px; /*first value y axis and second value x axis */
+    color: white;
+    font-weight: bold;
+    border: 1px solid green;
+
+
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    margin-top: 5px;
+}
+
+li a{
+   color: green; 
+} /* list items */
+
+#delete-btn{
+    background-color:white;
+    color: green;
+    border: 1px solid;
+
+} /* button css also add to this*/
